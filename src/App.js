@@ -6,10 +6,12 @@ import SignIn from './Pages/SignIn'
 import SignOut from './Pages/SignOut'
 import ForgotPassword from './Pages/ForgotPassword'
 import Offers from './Pages/Offers'
+import Header from './Components/Header'
 
 export default function App() {
   return (
     <>
+    <Header />
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/profile' element={<Profile/>}/>
